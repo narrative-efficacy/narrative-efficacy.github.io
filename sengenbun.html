@@ -6,11 +6,16 @@
   <title>語る社会をつくる | 一般社団法人ナラティブエフィカシー普及協会</title>
   <link rel="stylesheet" href="style.css">
   <style>
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+      margin: 2em;
+      line-height: 1.8;
+    }
     .header {
       display: flex;
       align-items: center;
       gap: 20px;
-      margin-bottom: 1em;
+      margin-bottom: 0.5em;
     }
     .header img {
       max-width: 100px;
@@ -21,6 +26,29 @@
       font-size: 1.5em;
       line-height: 1.4;
     }
+    nav {
+      background-color: #550000;
+      margin-bottom: 2em;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    nav li {
+      margin: 0;
+    }
+    nav a {
+      display: block;
+      padding: 10px 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #7a2d2d;
+    }
     .section-title {
       border-bottom: 3px solid #228B22;
       padding-bottom: 0.2em;
@@ -28,12 +56,18 @@
       font-size: 1.3em;
       font-weight: bold;
     }
+    .slogan {
+      font-size: 1.6em;
+      font-weight: bold;
+      margin: 1em 0;
+    }
     .bold {
       font-weight: bold;
     }
   </style>
 </head>
 <body>
+
   <div class="header">
     <img src="ne_logo.png" alt="ナラティブエフィカシー普及協会ロゴ">
     <div class="header-text">
@@ -42,6 +76,17 @@
       ナラティブエフィカシー普及協会
     </div>
   </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="teikan.html">定款</a></li>
+      <li><a href="sengenbun.html">宣言文</a></li>
+      <li><a href="rinri.html">倫理綱領</a></li>
+      <li><a href="kaiin.html">会員規程</a></li>
+      <li><a href="logo.html">ロゴについて</a></li>
+    </ul>
+  </nav>
 
   <div class="section-title">「語る社会をつくる」宣言文</div>
   <p><strong>『語り合うことは、共に生き直すこと』</strong></p>
@@ -79,7 +124,7 @@
   <p>
     今ここで語られる一つひとつの声が、<br>
     <strong>やがて誰かの希望となり</strong>、<br>
-    その誰かがまた、自らの物語を語り始める――<br>
+    その誰かがまた、自らの物語を語り始める——<br>
     その連鎖こそが、語る社会の始まりです。
   </p>
 
